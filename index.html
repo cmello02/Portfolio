@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio - Caio Mello</title>
+
+    <!-- 
+        - favicon
+     -->
+
+    <!-- 
+        - custom css Link
+      -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 
+        - google font link
+       -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- 
+      - #MAIN
+     -->
+    <main>
+      <!-- 
+        - #SIDEBAR
+       -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              class="person-photo"
+              src="./assets/img/Novo Projeto (1).png"
+              alt="Caio Mello"
+              width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Caio Mello">Caio Mello</h1>
+
+            <p class="title">Desenvolvedor Web</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon class="icon-ion" name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:caiocmello02@gmail.com" class="contact-link"
+                  >caiocmello02@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+5522981668798">+55 (22) 98166-8798</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Cabo Frio, Rio de Janeiro, BR</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/cmello02" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/cmello02/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            
+          </ul>
+          
+        </aside>
+
+          <nav class="navbar active">
+            <ul class="navbar-list active">
+              <li class="navbar-item">
+                <button class="navbar-link">About</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link">Habilidades</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link">Projects</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link">About</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link">Contact</button>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- 
+            - #ABOUT
+           -->
+
+          <article class="about active" data-page="about">
+            <header>
+              <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+              <p>
+                Meu nome é Caio Mello e sou um apaixonado por tecnologia. Meu
+                primeiro contato com programação foi em 2020, quando começou a
+                pandemia. Apesar de ter gostado da área, comecei a focar no meio
+                de 2023 e estou estudando a cada dia para poder me solidificar na area.
+              </p>
+            </section>
+
+            <!-- 
+              - habilidades
+             -->
+
+            <section class="skill">
+              <h2 class="h3 skill-title">My skill</h2>
+
+              <ul class="skill-list">
+
+                <li class="skill-item">
+
+                  <div class="skill-icon-box">
+                    <ion-icon class="skill-icon" name="logo-html5"></ion-icon>
+                  </div>
+
+                  <div class="skill-content-box">
+                    <h4 class="h4 skill-item-title">HTML5</h4>
+
+                    <p class="skill-item-text html">É uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+                  </div>
+                </li>
+
+
+                <li class="skill-item">
+                  <div class="skill-icon-box">
+                    <ion-icon class="skill-icon" name="logo-css3"></ion-icon>
+                  </div>
+                <div class="skill-content-box">
+                    <h4 class="h4 skill-item-title">CSS3</h4>
+
+                    <p class="skill-item-text css">É um mecanismo para adicionar estilo a um documento web.</p>
+                  </div>
+                </li>
+
+                <li class="skill-item">
+                  <div class="skill-icon-box">
+                    <ion-icon class="skill-icon" name="logo-javascript"></ion-icon>
+                  </div>
+
+                  <div class="skill-content-box">
+                    <h4 class="h4 skill-item-title ">JavaScript</h4>
+
+                    <p class="skill-item-text js">É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p>
+                  </div>
+                </li>
+
+                <li class="skill-item">
+                  <div class="skill-icon-box">
+                    <ion-icon class="skill-icon" name="logo-sass"></ion-icon>
+                  </div>
+
+                  <div class="skill-content-box">
+                    <h4 class="h4 skill-item-title ">Sass</h4>
+
+                    <p class="skill-item-text sass">É uma linguagem de folhas de estilo. Basicamente o Sass potencializa o CSS.</p>
+                  </div>
+                </li>
+                
+              </ul>
+            </section>
+          </article>
+
+          <!-- 
+            - #RESUME
+           -->
+
+           <article class="resume active" data-page="resume">
+
+            <header>
+              <h2 class="h2 article-title">Resume</h2>
+            </header>
+
+            <section class="timeline">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">Faculdade</h3>
+              </div>
+
+              <ol class="timeline-list">
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Analise e desenvolvimento de sistemas</h4>
+                  <span>2023 - 2025</span>
+                  <p class="timeline-text"></p>
+                </li>
+              </ol>
+                <br>
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">Cursos</h3>
+              </div>
+              
+              
+              <ol class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Dev Samurai</h4>
+                  <p class="timeline-text">3 Horas de curso. (Logica de Programação)</p>
+                  <p class="timeline-text">5 Horas de curso. (JavaScript Básico)</p>
+                  <p class="timeline-text">8 Horas de curso. (JavaScript Avançado)</p>
+                </li>
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Curso em Video</h4>
+                  <p class="timeline-text">40 Horas de curso. (HTML)</p>
+                </li>
+              </ol>
+              
+              <br>
+              
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+                <h3 class="h3">Projetos</h3>
+              </div>
+              <ol class="timeline-list">
+                
+                <li class="timeline-item">
+                  <a href="https://cmello02.github.io/Quiz/" class="social-link"> <h4 class="h4 timeline-item-title">Quiz</h4></a>
+                </li>
+                <li class="timeline-item">
+                  <a href="https://cmello02.github.io/Todo-List/" class="social-link"> <h4 class="h4 timeline-item-title">Todo List</h4></a>
+                </li>
+                <li class="timeline-item">
+                  <a href="https://cmello02.github.io/tela_de_login/" class="social-link"> <h4 class="h4 timeline-item-title">Tela de Login 'Sem Integração'</h4></a>
+                </li>
+              </ol>    
+
+            </section>
+            
+            
+          </article>
+          
+        </div>
+      </main>
+
+    <!-- 
+      - script js link
+     -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+      - ionicon link
+      -->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  </body>
+</html>
